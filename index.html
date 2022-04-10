@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="framworks/w3pro.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="icons/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>T H A M E R</title>
+</head>
+<body>
+    <!--NAV BAR (BIG SCREEN)-->
+    <div class="w3-bar w3-card navbar">
+        <p class="w3-left thamer-txt">THAMER</p>
+        <div class="w3-hide-medium w3-hide-small">
+            <div class="w3-center navitems-center">
+              <a href="#home" class="home-txt">HOME</a>
+                <a href="#expe" class="exp-txt">EXPERIENCES</a>
+                <p class="pro-txt">PROJECT</p>
+                <p class="w3-right lang-txt">LANGUAGE SOON!!</p>
+            </div>
+        </div>
+        <!--NAV BAR (SMALL SCREENS)
+        <p><i class="w3-bar-item w3-button w3-right w3-hide-large  fi fi-rr-menu-burger" onclick="w3_open()"></i></p>
+    -->
+    </div>
+    <!-- Sidebar 
+  <div id="home" class="w3-sidebar w3-bar-block w3-border-right" style="display:none;width:25%;right:0;" id="mySidebar">
+    <button onclick="w3_close()" class="w3-bar-item w3-large w3-button">Close &times;</button>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#" class="w3-bar-item w3-button">EXPERIENCES</a>
+    <a href="#" class="w3-bar-item w3-button">PROJECT</a>
+  </div>
+  -->
+
+  <!--Header-->
+  <div id="home" class="w3-display-container header">
+      <img class="w3-right img-char" src="image/char.png">
+  <p class="w3-left imthamer-txt">I'M THAMER</p>
+        <p class="w3-left ima-txt">I'm a</p>
+        <p class="w3-left dev-txt">
+            <a class="typewrite" data-period="2000" data-type='[ "Developer", "Freelancer"]'>
+                <span class="wrap"></span>
+            </a>
+        </p>
+        <a href="https://twitter.com/thalzi507" target="_blank">
+          <img class="w3-left twr" src="image/twitter.png" alt="تويتر">
+      </a>
+      <a href="https://github.com/ThamerDeveloper" target="_blank">
+          <img class="w3-left gith" src="image/github.png" alt="github">
+      </a>
+      <div class="warns">
+        <div class="w3-left warn1"><i class="fi fi-sr-exclamation"></i></div>
+        <p class="w3-left warn1txt">website is still under development, you may encounter errors.</p>
+        <div class="w3-left warn2"><i class="fi fi-sr-exclamation"></i></div>
+        <p class="w3-left warn2txt">If you encounter a problem, contact me at GitHub.</p>
+      </div>
+  </div>
+
+  <div class="w3-display-container nav">
+    <div class="w3-center aboutme">
+      <p class="about">About me</p>
+  <p class="mycv">
+      I am 15 years old an experienced developer and I didn't waste my time playing like my friends
+      <br>
+      <br>
+      I'm a Front-End Engineer and working on being full stack developer to help create software that enhances new people's experience.
+      <br>
+      <br>
+      I've been recently working on a lot of projects so if you want to collaborate with me contact me with this email
+      <br>
+      <br>
+      thamerdeve507@gmail.com
+  </p>
+  </div>
+
+
+  <div class="w3-center experiencess">
+    <p id="expe" class="exp2-txt">Experiences</p>
+    <button class="btnreveal" onclick="html(), css(), js(), bt(), w3(), ps(), xd()">Reveal</button>
+    <p class="pl">Programming Languages <i class="fi fi-sr-browser"></i></p>
+
+    <!--HTML5 CARD-->
+      <div class="htmlRowExp">
+        <div class="HTML5">
+          <div class="html5-center">
+            <img src="image/html5.png" class="htmlLogo">
+          </div>
+          <div class="html-bar">
+              <div id="myBarHTML" class="myBarHTML w3-container w3-center">0%<br></div>
+          </div>
+          <p class="htmltxt">HTML</p>
+        </div>
+    </div>
+    <!--CSS CARD-->
+      <div class="cssRowExp">
+        <div class="CSS">
+          <div class="css-center">
+            <img src="image/css.png" class="cssLogo">
+          </div>
+          <div class="css-bar">
+              <div id="myBarCSS" class="myBarCSS w3-container w3-center">0%<br></div>
+          </div>
+          <p class="csstxt">CSS</p>
+        </div>
+    </div>
+    <!--JAVASCRIPT CARD-->
+      <div class="jsRowExp">
+        <div class="JavaScript">
+          <div class="html5-center">
+            <img src="image/javascript.png" class="jsLogo">
+          </div>
+          <div class="js-bar">
+              <div id="myBarJS" class="myBarJS w3-container w3-center">0%<br></div>
+          </div>
+          <p class="jstxt">JavaScript</p>
+        </div>
+      </div>
+    
+    <p class="fw">Frameworks <i class="fi fi-sr-briefcase"></i></p>
+
+    <!--BT CARD-->
+    <div class="btRowExp">
+      <div class="Bootstrap">
+        <div class="bt-center">
+          <img src="image/bootstrap.png" class="btLogo">
+        </div>
+        <div class="bt-bar">
+            <div id="myBarBT" class="myBarBT w3-container w3-center">0%<br></div>
+        </div>
+        <p class="bttxt">Bootstrap</p>
+      </div>
+    </div>
+  <!--W3 CARD-->
+  <div class="w3RowExp">
+    <div class="W3.CSS">
+      <div class="w3-center">
+        <img src="image/W3Schools_logo.svg.png" class="w3Logo">
+      </div>
+      <div class="ww-bar">
+          <div id="myBarW3" class="myBarW3 w3-container w3-center">0%<br></div>
+      </div>
+      <p class="w3txt">W3.CSS</p>
+    </div>
+  </div>
+
+    <p class="ds">Design Software <i class="fi fi-sr-palette"></i></p>
+
+    <!--PS CARD-->
+    <div class="psRowExp">
+      <div class="Photoshop">
+        <div class="ps-center">
+          <img src="image/photoshop.png" class="psLogo">
+        </div>
+        <div class="ps-bar">
+            <div id="myBarPS" class="myBarPS w3-container w3-center">0%<br></div>
+        </div>
+        <p class="pstxt">Photoshop</p>
+      </div>
+    </div>
+  <!--XD CARD-->
+  <div class="xdRowExp">
+    <div class="Adobe XD">
+      <div class="xd-center">
+        <img src="image/AdobeXD.png" class="xdLogo">
+      </div>
+      <div class="xd-bar">
+          <div id="myBarXD" class="myBarXD w3-container w3-center">0%<br></div>
+      </div>
+      <p class="xdtxt">Adobe XD</p>
+    </div>
+  </div>
+
+  </div>
+
+
+</div>
+
+
+<div class="w3-display-container w3-center footer">
+  <p class="copyr">Copyright ©2022.</p>
+  <a class="copyrurl" href="#home"> Thamer Alshehri</a>
+</div>
+
+      <script src="main.js"></script>
+</body>
+</html>
